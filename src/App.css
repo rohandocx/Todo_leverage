@@ -1,0 +1,108 @@
+body {
+  /* width: 99%; */
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Navbar.css */
+.navbar {
+  background-color: #025287;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  /* width: 100%; */
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: 20%;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+}
+
+.task {
+  background-color: #ffffff;
+  padding: 15px;
+
+  width: 200px;
+  margin: 5px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: #025287;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 65px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #fbfbfb;
+  width: 170px;
+}
